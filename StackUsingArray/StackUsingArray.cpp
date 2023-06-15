@@ -64,7 +64,9 @@ int main() {
 		cout << "3. Display\n";
 		cout << "4. Exit\n";
 		cout << "\nEnter your choice: ";
-
+		string input;
+		getline(cin, input);
+		char ch = (input.empty() ? '0' : input[0]);
 
 	}
 }
